@@ -36,10 +36,10 @@
 >     + insert하고 취소버튼 누르고 list로 갈때 category번호 넘겨서 리스트 보여주기   
 >     + 수정에서 공지/자유 변경 불가능하게 -> disabled 추가해주면 해결  
 
-<br>
-**20.05.05**    
+</br>
+**20.05.04**  
 > 게시판  
->   + 게시물 삽입, 수정 textArea에서 띄어쓰기 Detail 페이지에서 적용 안된다.  
+>   + 게시물 삽입, 수정 textArea에서 띄어쓰기 Detail 페이지에서 적용 안된다.    
 >     <pre><code> BoardVo boardDetail = boardMapper.boardDetail(vo.getDd_board_no());
       boardDetail.setDd_board_contents(boardDetail.getDd_board_contents().replaceAll("\r\n","<br>"));</pre></code>
 >      -> 컨트롤러에서 replace해주기
