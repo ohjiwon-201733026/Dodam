@@ -39,8 +39,7 @@
 **20.05.05**  
 > 게시판     
 >   + 게시물 삽입, 수정 textArea에서 띄어쓰기 Detail 페이지에서 적용 안된다.      
->     <pre><code> BoardVo boardDetail = boardMapper.boardDetail(vo.getDd_board_no());
-      boardDetail.setDd_board_contents(boardDetail.getDd_board_contents().replaceAll("\r\n","<br>"));</pre></code>  
+    <pre><code> BoardVo boardDetail = boardMapper.boardDetail(vo.getDd_board_no());boardDetail.setDd_board_contents(boardDetail.getDd_board_contents().replaceAll("\r\n","<br>"));</pre></code>  
 >      -> 컨트롤러에서 replace해주기  
 >   + 삽입 required  
 >   + 게시판 댓글 DB 설계, ReplyVo(댓글 DTO)  
