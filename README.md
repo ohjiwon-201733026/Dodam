@@ -37,7 +37,7 @@
 >     + 수정에서 공지/자유 변경 불가능하게 -> disabled 추가해주면 해결  
 
 <br>
-**20.05.05**  
+**20.05.05**    
 > 게시판  
 >   + 게시물 삽입, 수정 textArea에서 띄어쓰기 Detail 페이지에서 적용 안된다.  
 >     <pre><code> BoardVo boardDetail = boardMapper.boardDetail(vo.getDd_board_no());
